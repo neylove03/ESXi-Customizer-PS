@@ -9,7 +9,7 @@ How to make your own virtual machine server with VMware ESXi
 2. Download ESXi-Customizer-PS.ps1
  https://github.com/VFrontDe/ESXi-Cust...
 3. Creating custom ESXi Image
-       .\ESXi-Customizer-PS.ps1 -help
-       .\ESXi-Customizer-PS.ps1 -v60 -vft -load sata-xahci,net55-r8168 -nsc
+3.1 .\ESXi-Customizer-PS.ps1 -help
+3.2 .\ESXi-Customizer-PS.ps1 -v60 -vft -load sata-xahci,net55-r8168 -nsc
 4. Create a bootable VMware ESXi installer USB flash drive
 5. Install ESXi
